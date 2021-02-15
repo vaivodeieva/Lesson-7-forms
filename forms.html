@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>This is a form</title>
+</head>
+
+<body>
+    <h1>Welcome to our webpage</h1>
+
+    <h3>Please register:</h3>
+
+    <form action="POST">
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="John" required>
+            <label for="surname">Surname:</label>
+            <input type="text" id="surname" placeholder="Smith" required>
+        </div>
+        <br>
+
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="john.smith@example.com" required>
+            <label for="password">Password:</label>
+            <input type="password" id="password" required>
+        </div>
+      <br>
+
+        <div>
+            <label for="gender">Gender:</label>
+
+            <input type="radio" name="gender" id="female">
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="not-telling">
+            <label for="not-telling">I want to keep it private</label>
+        </div>
+        <br>
+
+
+        <textarea name="textarea" id="textarea" cols="59" rows="6"
+            placeholder="In one sentence - why do you want to join this project?"></textarea>
+
+
+        <div>
+
+            <input type="checkbox" name="checkbox" id="checkbox">
+            <label for="checkbox">I'd like to receive newsletters</label>
+
+        </div>
+        <br>
+
+        <div>
+           <input type="submit" value="Submit">
+
+        </div>
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+    </form>
+
+</body>
+
+</html>
